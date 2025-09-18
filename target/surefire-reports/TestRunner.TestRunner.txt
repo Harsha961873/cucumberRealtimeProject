@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 42.34 s <<< FAILURE! -- in TestRunner.TestRunner
+login page.login with invalid credentials #1 -- Time elapsed: 11.50 s <<< ERROR!
+java.lang.NoClassDefFoundError: org/testng/Assert
+	at pageObjects.loginPage.errormessage(loginPage.java:60)
+	at StepDefination.login.error_should_display(login.java:48)
+	at ✽.error "username/password" should display(file:///C:/Users/User/eclipse-workspace-interview/CucumberProject/src/test/resources/Features/login.feature:8)
+Caused by: java.lang.ClassNotFoundException: org.testng.Assert
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 3 more
+
+login page.login with invalid credentials #2 -- Time elapsed: 9.125 s <<< ERROR!
+java.lang.NoClassDefFoundError: org/testng/Assert
+	at pageObjects.loginPage.errormessage(loginPage.java:60)
+	at StepDefination.login.error_should_display(login.java:48)
+	at ✽.error "username/password" should display(file:///C:/Users/User/eclipse-workspace-interview/CucumberProject/src/test/resources/Features/login.feature:8)
+
+login page.login with invalid credentials #3 -- Time elapsed: 7.340 s <<< ERROR!
+java.lang.NoClassDefFoundError: org/testng/Assert
+	at pageObjects.loginPage.errormessage(loginPage.java:60)
+	at StepDefination.login.error_should_display(login.java:48)
+	at ✽.error "username/password" should display(file:///C:/Users/User/eclipse-workspace-interview/CucumberProject/src/test/resources/Features/login.feature:8)
+
